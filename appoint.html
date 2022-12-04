@@ -48,23 +48,49 @@
     </nav>
     
     <!---------------------------------------------------Appointment Section-------------------------->
+    <main class="container appoint-mainSection bg-light">
+        <div class="appoint-briefInfo">
+            <h1 class="appoint-head">Book an Appointment</h1>
+            <p class="text-start appoint-text">
+                Do you want to buy, rent or sell a home? Or perhaps you need a home loan to speed up your house purchase?
+                Then welcome to the right platform were you can actually do all that in just a click.
+            </p>
+        </div>
+        <h4 class="appoint-subhead">
+            Request an Appointment <br>
+            <span class="appoint-subheadText">Make an Appointment with the Management</span>
+        </h4>
+        
+        <div class="row mt-3">
+            <div class="col-md-6 formImage-section">
+                <picture class="form-image">
+                    <img class="border rounded-3" src="./images/bed room.jpg" alt="A beautiful bedroom">
+                </picture>
+            </div>
+            <div class="col-md-6 form-section">
+                <form action="/#" method="post" target="_self" class="shadow appoint-form">
+                    <input class="form-control mb-2" type="email" id="email" placeholder="Enter your email" aria-label="email" required>
+                    <input class="form-control mb-2" type="tel"  id="phone number" placeholder="+234-703-678-4576">
+                    <select class="form-select mb-2" aria-label="Default select example">
+                        <option selected>Service required</option>
+                        <option value="1">Buy a home</option>
+                        <option value="2">Sell a home</option>
+                        <option value="3">Rent a home</option>
+                        <option value="4">Get home loan</option>
+                        <option value="5">Listing/Recommendation</option>
+                    </select>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Set Appointment Date</span>
+                        <input class="form-control" type="datetime-local" name="date" id="date">
+                    </div>
+                    <textarea class="form-control" placeholder="Add any extra details here" id="floatingTextarea"></textarea>
+                    <button class="btn btn-md appointBtn mt-3" type="submit">Request an Appointment</button>                      
+                </form>
+            </div>
+        </div>
+    </main>
 
-
-    <section class="container about-main pt-4 text-center justify-content-center">
-        <h1 class="appoint-head">Book an Appointment</h1>
-        <p>Do you want to buy, rent or sell a home? Or perhaps you need a home loan to speed up your house purchase?
-            Then welcome to the right platform were you can actually do all that in just a click.
-        </p>
-    </section>
-
-    <div class="container text-center mt-4 form-section ">
-        <h4 class="appoint-formHeaad">Request an Appointment</h4>
-        <form  class="appoint-form">
-            <input type="text" placeholder="Enter your name" id="fullname" required><br>
-            <input type="email" id="email" placeholder="Enter your email" required><br>
-
-        </form>
-    </div>
+    
 
     <footer class="container-fluid">
         <div class="row text-center">

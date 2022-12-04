@@ -334,7 +334,8 @@ footer {
 
 .about-desireImage img,
 .sellingImage-content img,
-.recommend-image img {
+.recommend-image img,
+.formImage-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -463,6 +464,48 @@ form img {
     padding-bottom: 15px;
 }
 
+
+/*-------------------------------------------Appointment CSS---------------------------*/
+
+
+.appoint-mainSection {
+    margin-top: 90px;
+    padding: auto 30px;
+    text-align: center;
+}
+
+.appoint-briefInfo {
+    padding: auto 20px;
+}
+
+.appoint-text {
+    width: 90%;
+    margin: auto;
+    text-align: start;
+}
+
+.appoint-subhead {
+    margin-top: 30px;
+    line-height: 18px;
+}
+
+.appoint-subheadText {
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.form-section > form {
+    position: relative;
+}
+
+.appoint-form {
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
 
 @media only screen and (min-width:576px) {
     
@@ -738,6 +781,12 @@ form img {
         text-align: center;
         margin-left: 21em;
         padding-bottom: 20px;
+    }
+
+    .appoint-text {
+        width: 60%;
+        margin: auto;
+        text-align: start;
     }
 
 }
